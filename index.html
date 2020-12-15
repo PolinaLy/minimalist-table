@@ -15,49 +15,55 @@
     </header>
 
     <main>
+        <!--Start of Table-->
         <table>
             <caption>Female and male terms for some nonhuman animals.</caption>
-            <tr>
-                <th colspan="2">
-                  Animals
-                </th>
-            </tr>
-            <tr>
-                <th colspan="2">
-                  Hippopotamus
-                </th>
-            </tr>
-            <tr>
-                <th rowspan="2">
-                    Horse
-                </th>
-                <td>
-                    Mare
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Stallion
-                </td>
-            </tr>
-            <tr>
-                <th colspan="2">
-                    Crocodile
-                </th>
-            </tr>
-            <tr>
-                <th rowspan="2">
-                    Chicken
-                </th>
-                <td>
-                    Hen
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Rooster
-                </td>
-            </tr>
+            <thead>
+                <tr>
+                    <th colspan="2" scope="colgroup">
+                      Animals
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!--Employing scope vs headers approach for table headings-->
+                    <th colspan="2" scope="row">
+                      Hippopotamus
+                    </th>
+                </tr>
+                <tr>
+                    <th rowspan="2" scope="row">
+                        Horse
+                    </th>
+                    <td>
+                        Mare
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Stallion
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2" scope="row">
+                        Crocodile
+                    </th>
+                </tr>
+                <tr>
+                    <th rowspan="2" scope="row">
+                        Chicken
+                    </th>
+                    <td>
+                        Hen
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Rooster
+                    </td>
+                </tr>
+            </tbody>
           </table>
     </main>
 
